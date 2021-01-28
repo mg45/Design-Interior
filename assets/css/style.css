@@ -199,7 +199,7 @@ form {
     color: #fff;
 }
 
-input[type=text], input[type=email], input[type=textarea] {
+input[type=text], input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -207,6 +207,14 @@ input[type=text], input[type=email], input[type=textarea] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 input[type="button"] {
